@@ -1,13 +1,22 @@
-import csv, itertools
+import csv, itertools, sys
 
 ret_file = "tally-results.csv"
  
 file_to_search = "data.csv"
-
-search_exps = []
-
 	
 ret_contents = []
+
+search_field = ""
+column_found = 0
+chosen_column = 0
+column_dictionary = {}
+
+arg_length = len(sys.argv)
+if(arg_length == 1):
+	print "nothing"
+else:
+	if(arg_length == 2):
+		search_field = sys.argv[1]
 
 print "\nTrying to open file\n"
 
@@ -20,9 +29,20 @@ try:
 			if counter == 0:
 				initial_counter = 0
 				for column in row:
-					print column
+					if column == search_field:
+						column_found = 1
+						chosen_column = initial_counter
 					initial_counter += 1
 				counter += 1
+			elif column_found == 1:
+				result = row[chosen_column]
+				if result in column_dictionary:
+					column_dictionary[result] += 1
+				else:
+					column_dictionary[result] = 1
+			else:
+				print 
+
 		if (ret_contents == []):
 			print '\nNo data to Export\n'
 except IOError:
@@ -37,3 +57,10 @@ with open(ret_file, 'w+') as writefile:
 			csv_writer.writerow(row)
 
 print 'Results should all be written in ' + ret_file
+
+#print column_dictionary
+final_list = []
+for key, value in sorted(column_dictionary.iteritems(), key=lambda (k,v): (v,k)):
+    final_list.append("%s: %s" % (key, value))
+final_list.reverse()
+print final_list
