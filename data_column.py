@@ -24,7 +24,7 @@ try:
 	# open file in "universal new-line mode" so that it handles empty excel cells better
 	with open(file_to_search, 'rU') as csvfile:
 		csv_reader = csv.reader(csvfile)
-		counter = 0
+		counter = 0.
 		for row in csv_reader:
 			if counter == 0:
 				initial_counter = 0
@@ -35,13 +35,14 @@ try:
 					initial_counter += 1
 				counter += 1
 			elif column_found == 1:
+				counter += 1
 				result = row[chosen_column]
 				if result in column_dictionary:
 					column_dictionary[result] += 1
 				else:
 					column_dictionary[result] = 1
 			else:
-				print 
+				counter += 1
 
 		if (ret_contents == []):
 			print '\nNo data to Export\n'
@@ -61,6 +62,6 @@ print 'Results should all be written in ' + ret_file
 #print column_dictionary
 final_list = []
 for key, value in sorted(column_dictionary.iteritems(), key=lambda (k,v): (v,k)):
-    final_list.append("%s: %s" % (key, value))
+    final_list.append("%s: %s  (%s percent)" % (key, value, value / counter * 100 ))
 final_list.reverse()
 print final_list
