@@ -30,7 +30,7 @@ def getCols(csv_file):
 					if (i == 0):
 						cols.append([row[index]])
 					else:
-						cols[index].append(row[index[]])
+						cols[index].append(row[index])
 			i += 1
 	except IOError:
 		print "IOERROR is raised. Are you sure you are in the right folder? We couldn't find the file you gave us.\n\n"
@@ -54,9 +54,9 @@ def findAllContaining(csv_file, exps):
 """ Take a set of rows, save to .csv file with file name as input fileName """
 def saveRowsToCSV(rows, fileName):
 	with open(fileName, 'w+') as writefile:
-	csv_writer = csv.writer(writefile)
-	for row in rows:
-			csv_writer.writerow(row)
+		csv_writer = csv.writer(writefile)
+		for row in rows:
+				csv_writer.writerow(row)
 
 
 
