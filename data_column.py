@@ -59,7 +59,7 @@ def find_column(cached_data, filter_field):
 #end find_column(cached_data, argument)
 
 def general_info(cached_data):
-	print "try filtering by these categories (type 'python script.py ___'):"
+	print "\n ### HELP: Try filtering by these categories (type 'python script.py _ONE_OF_THESE_'):"
 	row_counter = 0.
 	counter = 0
 	for row in cached_data:
@@ -74,7 +74,9 @@ def general_info(cached_data):
 
 def get_stats(cached_data, search_field):
 	try:
+			column_found = 0
 			row_counter = 0.
+			chosen_column = 0
 			for row in cached_data:
 				if row_counter == 0:
 					initial_counter = 0
@@ -100,6 +102,36 @@ def get_stats(cached_data, search_field):
 
 #end get stats
 
+def run_stats(cached_data, search_field):
+	#get_stats
+	row_counter = get_stats(cached_data, search_field)
+
+	if column_dictionary == {}:
+		print "WARNING: no results found (run stats)"
+	else:
+		final_list = []
+		for key, value in sorted(column_dictionary.iteritems(), key=lambda (k,v): (v,k)):
+		    final_list.append('%s: %s of %d  (%.2f percent)' % (key, value, row_counter, value / row_counter * 100 ))
+		final_list.reverse()
+		for item in final_list:
+			print item 
+
+#end run stats
+
+
+def get_breakdown(cached_data, search_field):
+	row_counter = get_stats(cached_data, search_field)
+	if column_dictionary == {}:
+		print "WARNING: no results found (get_breakdown)"
+	else:
+		print "\n ### HELP: Try filtering by these answers to the category (type 'python script.py _CATEGORY_ %s _ONE_OF_THESE_'):" % (search_field)
+		counter = 0
+		for key in column_dictionary:
+			print "%d) %s" % (counter + 1, key)
+			counter += 1
+
+#end get breakdown
+
 
 ret_file = "tally-results.csv"
  
@@ -110,24 +142,23 @@ search_field = ""
 filter_field = ""
 filter_value = ""
 
-column_found = 0
-chosen_column = 0
-row_counter = 0.
 column_dictionary = {}
 
 arg_length = len(sys.argv)
+print arg_length
 if(arg_length == 1):
 	general_info(cached_data)
 	sys.exit()
 else:
 	if(arg_length >= 2):
-		if sys.argv[1] == "help":
+		search_field = sys.argv[1]
+		if arg_length == 2 and sys.argv[1] == "help":
 			general_info(cached_data)
 			sys.exit()
-		search_field = sys.argv[1]
-	elif(arg_length == 3):
-		if sys.argv[1] == "help":
-			get_breakdown(sys.argv[2])
+		elif(arg_length == 3):
+			if sys.argv[1] == "help":
+				get_breakdown(cached_data, sys.argv[2])
+				sys.exit()
 
 #iterator for multiple filters		
 if(arg_length >= 4):
@@ -142,7 +173,8 @@ if(arg_length >= 4):
 
 #end iterator
 
-row_counter = get_stats(cached_data, search_field)
+run_stats(cached_data, search_field)
+
 
 """print '\nTrying to write new file to ' + ret_file + '\n'
 
@@ -153,12 +185,3 @@ with open(ret_file, 'w+') as writefile:
 
 print 'Results should all be written in ' + ret_file"""
 
-if column_dictionary == {}:
-	print "WARNING: no results found"
-else:
-	final_list = []
-	for key, value in sorted(column_dictionary.iteritems(), key=lambda (k,v): (v,k)):
-	    final_list.append('%s: %s of %d  (%.2f percent)' % (key, value, row_counter, value / row_counter * 100 ))
-	final_list.reverse()
-	for item in final_list:
-		print item 
