@@ -1,0 +1,346 @@
+'ID,STATE,ROLE,GRADE,SCHOOL_TYPE,EXPERIENCE,TAGS,DEVICES,PARTNERS,FEATURES,SUBJECT
+1788,CO,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,No response,No response,Other
+5569,TX,Tech,High,Public,sixTen,State,BYOT,Google-- so teachers can import / export directly to their Google Drive account.,Images embedded for individual Answer Choices.,Other
+8267,AL,Tech,High,Private,sixTen,Other,1to1,No response,No response,Math
+9833,IN,Tech,High,Public,sixTen,CommonCore,1to1,No response,No response,Other
+13588,CA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,No response,ComputerScience
+13588,CA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,No response,Music
+13588,CA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,No response,Reading
+13588,CA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,No response,Band
+13784,MO,Tech,High,Private,sixTen,Marzano,1to1,Instructure - Canvas Learning Management System,No response,Other
+14141,ND,Tech,High,Public,sixteenTwenty,na,1to1,No response,No response,Other
+14308,International,Tech,High,Private,twentyMore,Marzano,1to1,"DropBox and Google Drive - especially if you are going to either limit the storage (for images) for accounts, or if you can only use images which are stored online.","Inclusion of images has been on my mind for a long time, but I see that you have that now. Will there be storage limitations on accounts or individual quizzes with this new feature? Please see my feature suggestion for a partnership above.",ComputerScience
+14308,International,Tech,High,Private,twentyMore,Marzano,1to1,"DropBox and Google Drive - especially if you are going to either limit the storage (for images) for accounts, or if you can only use images which are stored online.","Inclusion of images has been on my mind for a long time, but I see that you have that now. Will there be storage limitations on accounts or individual quizzes with this new feature? Please see my feature suggestion for a partnership above.",Other
+14319,GA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,No response,Science
+17033,International,Tech,High,Private,sixTen,Other,1to1,No response,No response,ComputerScience
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,ComputerScience
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,Math
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,English
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,ForeignLanguage
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,History
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,Science
+18504,TX,Tech,High,Public,elevenFifteen,Other,1to1,No response,a place where the kids can draw something and send it back to you!,Geography
+18651,International,Tech,High,Public,twentyMore,Other,1to1,No response,No response,ComputerScience
+18651,International,Tech,High,Public,twentyMore,Other,1to1,No response,No response,Math
+18651,International,Tech,High,Public,twentyMore,Other,1to1,No response,No response,Albebra2
+18651,International,Tech,High,Public,twentyMore,Other,1to1,No response,No response,Algebra1
+21115,MA,Tech,High,Public,sixTen,Other,BYOT,No response,No response,ComputerScience
+21424,OH,Tech,High,Private,sixTen,CommonCore,BYOT,"Nearpod, canvas","Input mathematical notation Have multiple activities running Allow teachers to ""group"" students into a class and see results historically",English
+22498,International,Tech,High,Public,twentyMore,na,computerLab,No response,No response,ComputerScience
+22498,International,Tech,High,Public,twentyMore,na,computerLab,No response,No response,Science
+22498,International,Tech,High,Public,twentyMore,na,computerLab,No response,No response,Biology
+22498,International,Tech,High,Public,twentyMore,na,computerLab,No response,No response,PE
+23540,NE,Tech,High,Private,elevenFifteen,Other,computerLab,No response,No response,ComputerScience
+23833,International,Tech,High,Public,sixTen,State,1to1,No response,No response,History
+23833,International,Tech,High,Public,sixTen,State,1to1,No response,No response,PE
+24314,PA,Tech,High,Public,elevenFifteen,State,BYOT,No response,No response,Math
+24314,PA,Tech,High,Public,elevenFifteen,State,BYOT,No response,No response,ForeignLanguage
+24314,PA,Tech,High,Public,elevenFifteen,State,BYOT,No response,No response,ESL
+24332,NE,Tech,High,Public,elevenFifteen,State,1to1,No response,No response,English
+24332,NE,Tech,High,Public,elevenFifteen,State,1to1,No response,No response,Other
+25119,TX,Tech,High,Public,elevenFifteen,na,1to1,Google Apps for Education and Schoology,"I would love to see a draw feature in Socrative. Where the educator could load an image and the learners could draw on the image and submit that, or they could draw on a blank canvas.",Other
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,Math
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,English
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,ForeignLanguage
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,Geography
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,ESL
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,PE
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,Health
+25973,VA,Tech,High,Public,zeroFive,State,BYOT,No response,No response,Spanish
+26722,TX,Tech,High,Public,elevenFifteen,State,1to1,No response,Quizzes available asynchronously.,Other
+29828,TX,Tech,High,Public,twentyMore,Bloom,BYOT,"Remind 101, Schoology",I wish there was a filter that would not allow common profane words appear.,Math
+29828,TX,Tech,High,Public,twentyMore,Bloom,BYOT,"Remind 101, Schoology",I wish there was a filter that would not allow common profane words appear.,English
+29828,TX,Tech,High,Public,twentyMore,Bloom,BYOT,"Remind 101, Schoology",I wish there was a filter that would not allow common profane words appear.,ForeignLanguage
+29828,TX,Tech,High,Public,twentyMore,Bloom,BYOT,"Remind 101, Schoology",I wish there was a filter that would not allow common profane words appear.,Science
+29828,TX,Tech,High,Public,twentyMore,Bloom,BYOT,"Remind 101, Schoology",I wish there was a filter that would not allow common profane words appear.,Geography
+30065,TX,Tech,High,Public,sixteenTwenty,na,1to1,No response,No response,Other
+32854,KS,Tech,High,Public,twentyMore,Bloom,1to1,It would be nice if you could send the results directly to your Google Drive.,"Embedding a sound clip or even a movie from YouTube would be terrific, something for students to either watch or listen to and then respond to .",ComputerScience
+32854,KS,Tech,High,Public,twentyMore,Bloom,1to1,It would be nice if you could send the results directly to your Google Drive.,"Embedding a sound clip or even a movie from YouTube would be terrific, something for students to either watch or listen to and then respond to .",English
+32854,KS,Tech,High,Public,twentyMore,Bloom,1to1,It would be nice if you could send the results directly to your Google Drive.,"Embedding a sound clip or even a movie from YouTube would be terrific, something for students to either watch or listen to and then respond to .",History
+32854,KS,Tech,High,Public,twentyMore,Bloom,1to1,It would be nice if you could send the results directly to your Google Drive.,"Embedding a sound clip or even a movie from YouTube would be terrific, something for students to either watch or listen to and then respond to .",Other
+33130,MN,Tech,High,Public,elevenFifteen,na,1to1,"None, Please keep your product simple and fast for teachers and students to use. Your strength is your simplicity.","None, Please keep your product simple and fast for teachers and students to use. Your strength is your simplicity.",Physics
+33130,MN,Tech,High,Public,elevenFifteen,na,1to1,"None, Please keep your product simple and fast for teachers and students to use. Your strength is your simplicity.","None, Please keep your product simple and fast for teachers and students to use. Your strength is your simplicity.",Science
+33130,MN,Tech,High,Public,elevenFifteen,na,1to1,"None, Please keep your product simple and fast for teachers and students to use. Your strength is your simplicity.","None, Please keep your product simple and fast for teachers and students to use. Your strength is your simplicity.",Chemistry
+33970,OH,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,Blackboard Engage (Edline) Google,Export grades into teacher gradebook Embed Socrative quiz into web page ,Math
+33970,OH,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,Blackboard Engage (Edline) Google,Export grades into teacher gradebook Embed Socrative quiz into web page ,Albebra2
+33970,OH,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,Blackboard Engage (Edline) Google,Export grades into teacher gradebook Embed Socrative quiz into web page ,Geometry
+33970,OH,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,Blackboard Engage (Edline) Google,Export grades into teacher gradebook Embed Socrative quiz into web page ,PreCalc
+33970,OH,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,Blackboard Engage (Edline) Google,Export grades into teacher gradebook Embed Socrative quiz into web page ,Algebra1
+34004,MO,Tech,High,Public,elevenFifteen,na,computerLab,No response,No response,Other
+45217,NY,Tech,High,Public,sixTen,State,1to1,Schoology Google,Google Apps for education sign in,Science
+45217,NY,Tech,High,Public,sixTen,State,1to1,Schoology Google,Google Apps for education sign in,Biology
+48209,TX,Tech,High,Public,elevenFifteen,State,BYOT,No response,No response,Other
+50937,PA,Tech,High,Public,sixteenTwenty,Other,1to1,No response,No response,Other
+53080,SC,Tech,High,Public,zeroFive,CommonCore,1to1,Google,I love it just the way it is!,Other
+54286,IL,Tech,High,Public,twentyMore,Other,1to1,No response,No response,Math
+54286,IL,Tech,High,Public,twentyMore,Other,1to1,No response,No response,ForeignLanguage
+58337,TX,Tech,High,Public,twentyMore,State,computerLab,No response,No response,Science
+62030,NE,Tech,High,Public,elevenFifteen,CommonCore,1to1,"PowerSchool (pearson), to be able to upload quiz results straight to PowerSchool would be worth min. of $5 per teacher account. Anything that saves the teacher time grading and is a one step process is worth a lot of money.",The ability to upload test/quizzes from ExamView they are a .tst file.,ComputerScience
+62030,NE,Tech,High,Public,elevenFifteen,CommonCore,1to1,"PowerSchool (pearson), to be able to upload quiz results straight to PowerSchool would be worth min. of $5 per teacher account. Anything that saves the teacher time grading and is a one step process is worth a lot of money.",The ability to upload test/quizzes from ExamView they are a .tst file.,Math
+62030,NE,Tech,High,Public,elevenFifteen,CommonCore,1to1,"PowerSchool (pearson), to be able to upload quiz results straight to PowerSchool would be worth min. of $5 per teacher account. Anything that saves the teacher time grading and is a one step process is worth a lot of money.",The ability to upload test/quizzes from ExamView they are a .tst file.,Algebra1
+62030,NE,Tech,High,Public,elevenFifteen,CommonCore,1to1,"PowerSchool (pearson), to be able to upload quiz results straight to PowerSchool would be worth min. of $5 per teacher account. Anything that saves the teacher time grading and is a one step process is worth a lot of money.",The ability to upload test/quizzes from ExamView they are a .tst file.,Calculus
+64758,CA,Tech,High,Private,sixteenTwenty,Bloom,1to1,Learning Catalytics,Ability to embed results graph into a Google Site web page!!!!!!,ComputerScience
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,ComputerScience
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Math
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,English
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Music
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,ForeignLanguage
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,History
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Other
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Science
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Geography
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Reading
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Art
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,ESL
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,PE
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Drama
+65226,International,Tech,High,Public,twentyMore,Other,BYOT,No response,No response,Health
+65640,International,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,ComputerScience
+65640,International,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,Math
+65640,International,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,History
+67219,PA,Tech,High,Public,elevenFifteen,Other,1to1,No response,Equation editor,Other
+68819,MO,Tech,High,Private,twentyMore,State,BYOT,No response,No response,ComputerScience
+69109,CA,Tech,High,Private,sixteenTwenty,Other,BYOT,Schoology,Integration with grading programs like PowerSchool/PowerGrade,Science
+69109,CA,Tech,High,Private,sixteenTwenty,Other,BYOT,Schoology,Integration with grading programs like PowerSchool/PowerGrade,Biology
+71962,WA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Draw responses,Math
+71962,WA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Draw responses,Albebra2
+71962,WA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Draw responses,Geometry
+71962,WA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Draw responses,PreCalc
+71962,WA,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Draw responses,Calculus
+72671,International,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Students to be able to skip a question and return to it be able to change an answer,Math
+72671,International,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Students to be able to skip a question and return to it be able to change an answer,Albebra2
+72671,International,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Students to be able to skip a question and return to it be able to change an answer,Science
+72671,International,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Students to be able to skip a question and return to it be able to change an answer,Biology
+72671,International,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Students to be able to skip a question and return to it be able to change an answer,Chemistry
+72671,International,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Students to be able to skip a question and return to it be able to change an answer,Algebra1
+75926,TN,Tech,High,Private,sixTen,Other,1to1,No response,No response,Art
+76011,MI,Tech,High,Private,sixteenTwenty,State,1to1,No response,No response,ComputerScience
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,ComputerScience
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,Math
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,English
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,ForeignLanguage
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,History
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,Science
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,Reading
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,Art
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,PE
+76313,MO,Tech,High,Private,sixteenTwenty,Other,1to1,No response,No response,Health
+77174,VA,Tech,High,Public,zeroFive,State,Other,iTour EDU: www.itourmobile.com,No response,Other
+81051,International,Tech,High,Public,na,State,1to1,Blackboard,Import from word,Math
+81051,International,Tech,High,Public,na,State,1to1,Blackboard,Import from word,otherMath
+81393,CO,Tech,High,Public,elevenFifteen,State,1to1,Google? Integrate with Google Apps for Education?,"Superscript, subscript, and better support for symbols and math and science formulas, perhaps a mathtype-like formula interface",Math
+81393,CO,Tech,High,Public,elevenFifteen,State,1to1,Google? Integrate with Google Apps for Education?,"Superscript, subscript, and better support for symbols and math and science formulas, perhaps a mathtype-like formula interface",Albebra2
+81393,CO,Tech,High,Public,elevenFifteen,State,1to1,Google? Integrate with Google Apps for Education?,"Superscript, subscript, and better support for symbols and math and science formulas, perhaps a mathtype-like formula interface",Geometry
+81393,CO,Tech,High,Public,elevenFifteen,State,1to1,Google? Integrate with Google Apps for Education?,"Superscript, subscript, and better support for symbols and math and science formulas, perhaps a mathtype-like formula interface",PreCalc
+81393,CO,Tech,High,Public,elevenFifteen,State,1to1,Google? Integrate with Google Apps for Education?,"Superscript, subscript, and better support for symbols and math and science formulas, perhaps a mathtype-like formula interface",Other
+83686,IL,Tech,High,Public,elevenFifteen,na,computerLab,No response,No response,Other
+83808,International,Tech,High,Private,twentyMore,na,1to1,No response,The ability to have spoken questions so it could be used in foreign languages. The a it'll to be able to automatically answer short answer questions. A tough one I know.,ComputerScience
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,ComputerScience
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Math
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,English
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Music
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,ForeignLanguage
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,History
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Other
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Science
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Geography
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Reading
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Art
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,ESL
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,PE
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Drama
+85688,International,Tech,High,Private,twentyMore,na,na,XciteLogic in Australia I am a professional learning consultant. We would love to hear from you. Contact Shane shane@xcitelogic.com.au,No response,Health
+86048,International,Tech,High,Public,twentyMore,na,computerLab,No response,No response,ComputerScience
+86048,International,Tech,High,Public,twentyMore,na,computerLab,No response,No response,Math
+88826,NJ,Tech,High,Public,elevenFifteen,CommonCore,1to1,No response,No response,ComputerScience
+88826,NJ,Tech,High,Public,elevenFifteen,CommonCore,1to1,No response,No response,English
+90552,International,Tech,High,Public,elevenFifteen,na,computerLab,No response,No response,Other
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,English
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,ForeignLanguage
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,History
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,Science
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,Biology
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,Art
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,Health
+91234,CA,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,Spanish
+93508,GA,Tech,High,Private,elevenFifteen,Bloom,1to1,No response,No response,ComputerScience
+99175,International,Tech,High,Private,elevenFifteen,CommonCore,BYOT,No response,No response,Physics
+99175,International,Tech,High,Private,elevenFifteen,CommonCore,BYOT,No response,No response,Science
+99201,AR,Tech,High,Public,sixTen,CommonCore,1to1,No response,No response,Math
+99563,NC,Tech,High,Public,sixTen,Other,1to1,No response,Perhaps videos,Math
+99563,NC,Tech,High,Public,sixTen,Other,1to1,No response,Perhaps videos,English
+99563,NC,Tech,High,Public,sixTen,Other,1to1,No response,Perhaps videos,ForeignLanguage
+99563,NC,Tech,High,Public,sixTen,Other,1to1,No response,Perhaps videos,Science
+100955,,Tech,High,Private,twentyMore,na,Other,No response,I am pleased to see the images and short answers. I would like to see a way in which I can email each child her report without the other learners' answers.,ForeignLanguage
+100955,,Tech,High,Private,twentyMore,na,Other,No response,I am pleased to see the images and short answers. I would like to see a way in which I can email each child her report without the other learners' answers.,otherLang
+111183,MA,Tech,High,Public,sixTen,CommonCore,BYOT,No response,No response,Math
+111367,VA,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,Math
+111697,TX,Tech,High,Private,elevenFifteen,na,BYOT,No response,"Something like a class page that I could customize to each class, and post assignments, solicit posts from students.",ComputerScience
+119003,International,Tech,High,Private,sixTen,na,1to1,No response,No response,Geography
+119800,WA,Tech,High,Private,twentyMore,na,1to1,No response,No response,Science
+140962,NJ,Tech,High,Public,sixTen,CommonCore,computerLab,No response,No response,Other
+152766,PA,Tech,High,Private,twentyMore,Other,1to1,No response,Free Response and Individual score exportation for quizzes,ComputerScience
+152920,International,Tech,High,Private,sixteenTwenty,na,1to1,No response,scheduled quizzes which do not require teacher login,ComputerScience
+172574,TX,Tech,High,Public,elevenFifteen,Bloom,BYOT,Nearpod Edcanvas Edmodo ,Ability to create custom exit slips.,Other
+173742,AZ,Tech,High,Private,sixTen,na,BYOT,No response,No response,Other
+179229,International,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,ComputerScience
+179229,International,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,History
+179229,International,Tech,High,Private,sixteenTwenty,na,BYOT,No response,No response,Geography
+179763,CA,Tech,High,Private,twentyMore,na,Other,No response,No response,ComputerScience
+179763,CA,Tech,High,Private,twentyMore,na,Other,No response,No response,Art
+182452,FL,Tech,High,Public,sixTen,CommonCore,1to1,No response,No response,ComputerScience
+184397,CA,Tech,High,Public,sixteenTwenty,na,computerLab,Edmodo ,Ability to have videos ,Physics
+184397,CA,Tech,High,Public,sixteenTwenty,na,computerLab,Edmodo ,Ability to have videos ,Science
+184397,CA,Tech,High,Public,sixteenTwenty,na,computerLab,Edmodo ,Ability to have videos ,Biology
+184397,CA,Tech,High,Public,sixteenTwenty,na,computerLab,Edmodo ,Ability to have videos ,Chemistry
+184397,CA,Tech,High,Public,sixteenTwenty,na,computerLab,Edmodo ,Ability to have videos ,otherScience
+188444,CT,Tech,High,Private,elevenFifteen,CommonCore,1to1,No response,No response,ComputerScience
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,Math
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,Albebra2
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,Geometry
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,PreCalc
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,otherMath
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,Algebra1
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,Calculus
+188955,CT,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Apple, educreations, edmodo, Texas Instruments, smart",The ability to set times for assessment distribution Student logins Email of student progress Add video links ,PreAlgebra
+192135,CA,Tech,High,Private,sixTen,na,1to1,No response,No response,Other
+195313,MA,Tech,High,Public,zeroFive,Other,computerLab,Google,mathematical equations and graphs,ComputerScience
+222692,International,Tech,High,Private,elevenFifteen,na,1to1,Google,No response,English
+222692,International,Tech,High,Private,elevenFifteen,na,1to1,Google,No response,History
+226193,TX,Tech,High,Public,elevenFifteen,Other,Other,No response,No response,Math
+226193,TX,Tech,High,Public,elevenFifteen,Other,Other,No response,No response,Geometry
+226193,TX,Tech,High,Public,elevenFifteen,Other,Other,No response,No response,Algebra1
+236481,ME,Tech,High,Public,twentyMore,CommonCore,1to1,No response,No response,Other
+236742,OH,Tech,High,Private,elevenFifteen,CommonCore,1to1,No response,No response,Other
+242500,International,Tech,High,Private,elevenFifteen,na,1to1,No response,No response,Math
+250446,IL,Tech,High,Public,na,na,1to1,No response,No response,Other
+271446,International,Tech,High,Public,zeroFive,na,BYOT,No response,audio,ComputerScience
+275656,International,Tech,High,Public,twentyMore,Bloom,BYOT,No response,No response,Other
+282845,International,Tech,High,Public,twentyMore,na,BYOT,No response,linking to eg Flickr images as an option so don't have to have downloaded an image onto your computer before it can be used.,History
+285139,NC,Tech,High,Public,twentyMore,CommonCore,1to1,No response,No response,Other
+287314,TX,Tech,High,Private,sixTen,Other,computerLab,No response,Formatted text such that I can show computer code properly indented. For now I will try using an image.,ComputerScience
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Physics
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,ComputerScience
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Math
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Albebra2
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Geometry
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Science
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Biology
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Chemistry
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,otherScience
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,Algebra1
+295451,MT,Tech,High,Public,elevenFifteen,CommonCore,computerLab,Google Blackboard ,No response,PreAlgebra
+316488,SC,Tech,High,Public,sixteenTwenty,CommonCore,computerLab,No response,No response,History
+318718,International,Tech,High,na,twentyMore,na,1to1,No response,No response,Other
+320790,AR,Tech,High,Public,elevenFifteen,CommonCore,BYOT,No response,Ability to have results emailed to students. ,Other
+328646,International,Tech,High,na,twentyMore,na,na,No response,No response,Math
+328646,International,Tech,High,na,twentyMore,na,na,No response,No response,Music
+338762,MD,Tech,High,Public,zeroFive,State,Other,"Edmodo, PollEverywhere",#NAME?,Science
+338762,MD,Tech,High,Public,zeroFive,State,Other,"Edmodo, PollEverywhere",#NAME?,Biology
+338762,MD,Tech,High,Public,zeroFive,State,Other,"Edmodo, PollEverywhere",#NAME?,Chemistry
+338762,MD,Tech,High,Public,zeroFive,State,Other,"Edmodo, PollEverywhere",#NAME?,otherScience
+339829,International,Tech,High,Public,zeroFive,Other,Other,Not sure.,Being able to make a pre-made quiz but also see the instant results (histogram),Math
+339829,International,Tech,High,Public,zeroFive,Other,Other,Not sure.,Being able to make a pre-made quiz but also see the instant results (histogram),Geometry
+339829,International,Tech,High,Public,zeroFive,Other,Other,Not sure.,Being able to make a pre-made quiz but also see the instant results (histogram),PreCalc
+339829,International,Tech,High,Public,zeroFive,Other,Other,Not sure.,Being able to make a pre-made quiz but also see the instant results (histogram),Algebra1
+342362,International,Tech,High,Public,twentyMore,Bloom,computerLab,No response,No response,ComputerScience
+342362,International,Tech,High,Public,twentyMore,Bloom,computerLab,No response,No response,ESL
+345639,SD,Tech,High,Private,sixteenTwenty,na,computerLab,No response,No response,Math
+345639,SD,Tech,High,Private,sixteenTwenty,na,computerLab,No response,No response,ForeignLanguage
+345639,SD,Tech,High,Private,sixteenTwenty,na,computerLab,No response,No response,ESL
+359226,SD,Tech,High,Public,elevenFifteen,State,1to1,No response,No response,Math
+359226,SD,Tech,High,Public,elevenFifteen,State,1to1,No response,No response,Albebra2
+359226,SD,Tech,High,Public,elevenFifteen,State,1to1,No response,No response,Geometry
+359226,SD,Tech,High,Public,elevenFifteen,State,1to1,No response,No response,Algebra1
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,ComputerScience
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Math
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,English
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Music
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,ForeignLanguage
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,History
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Science
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Geography
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Reading
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Art
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,PE
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Drama
+366410,International,Tech,High,Private,sixteenTwenty,Bloom,1to1,No response,No response,Health
+371145,International,Tech,High,na,na,na,BYOT,No response,#NAME?,Science
+371145,International,Tech,High,na,na,na,BYOT,No response,#NAME?,Chemistry
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,ComputerScience
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Math
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,ForeignLanguage
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Italian
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Reading
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Chinese
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Art
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Drama
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,Calculus
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,PreAlgebra
+371841,MT,Tech,High,Private,sixteenTwenty,CommonCore,computerLab,No response,No response,German
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Math
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,English
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,ForeignLanguage
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Albebra2
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Geometry
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,PreCalc
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,History
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Science
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Geography
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Algebra1
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,ESL
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,Calculus
+374530,OK,Tech,High,Public,twentyMore,CommonCore,computerLab,PowerSchool,Interface with PowerSchool gradebook ,PreAlgebra
+377194,UT,Tech,High,Public,elevenFifteen,Bloom,1to1,No response,No response,Other
+379843,SC,Tech,High,Public,sixTen,CommonCore,BYOT,Google> Apps for Education,No response,English
+382658,MA,Tech,High,Public,sixTen,Other,Other,No response,No response,Other
+384937,MA,Tech,High,Public,zeroFive,Other,Other,No response,No response,Other
+389138,NJ,Tech,High,Private,sixTen,na,computerLab,No response,Perhaps you should consider adding a drawing tool to answer questions.,ComputerScience
+389219,GA,Tech,High,Public,zeroFive,State,1to1,No response,No response,Other
+395831,LA,Tech,High,Private,sixTen,na,1to1,none,No response,ComputerScience
+402671,International,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,ComputerScience
+402671,International,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,Math
+402671,International,Tech,High,Public,elevenFifteen,na,BYOT,No response,No response,PreAlgebra
+404151,AR,Tech,High,Public,sixTen,Other,Other,No response,"Math symbols for answers, or a matching question",ComputerScience
+404151,AR,Tech,High,Public,sixTen,Other,Other,No response,"Math symbols for answers, or a matching question",Other
+407153,International,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Google login integration and Facebook, too.",Audio? Video?,ComputerScience
+407153,International,Tech,High,Public,sixteenTwenty,CommonCore,BYOT,"Google login integration and Facebook, too.",Audio? Video?,Science
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,English
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,ForeignLanguage
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,ESL
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,Spanish
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,French
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,German
+409834,VA,Tech,High,Public,sixteenTwenty,Marzano,1to1,No response,No response,Japanese
+410890,International,Tech,High,Public,elevenFifteen,State,computerLab,No response,No response,ComputerScience
+417574,TX,Tech,High,Public,sixTen,State,BYOT,No response,No response,Math
+417574,TX,Tech,High,Public,sixTen,State,BYOT,No response,No response,Albebra2
+417574,TX,Tech,High,Public,sixTen,State,BYOT,No response,No response,Geometry
+417574,TX,Tech,High,Public,sixTen,State,BYOT,No response,No response,PreCalc
+417574,TX,Tech,High,Public,sixTen,State,BYOT,No response,No response,Algebra1
+422009,International,Tech,High,Public,elevenFifteen,Other,1to1,No response,No response,Physics
+422009,International,Tech,High,Public,elevenFifteen,Other,1to1,No response,No response,ComputerScience
+422009,International,Tech,High,Public,elevenFifteen,Other,1to1,No response,No response,Science
+422080,NM,Tech,High,Private,sixTen,Other,BYOT,I would say any and all you can forge partnerships with. All companies should leverage online training technology.,Don't know yet. Just getting started here.,ComputerScience
+422080,NM,Tech,High,Private,sixTen,Other,BYOT,I would say any and all you can forge partnerships with. All companies should leverage online training technology.,Don't know yet. Just getting started here.,ForeignLanguage
+422080,NM,Tech,High,Private,sixTen,Other,BYOT,I would say any and all you can forge partnerships with. All companies should leverage online training technology.,Don't know yet. Just getting started here.,Spanish
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Physics
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Math
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Albebra2
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Geometry
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,PreCalc
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,otherMath
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Science
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Biology
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Chemistry
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,otherScience
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Algebra1
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,Calculus
+425162,International,Tech,High,Public,zeroFive,Other,1to1,No response,Video in quizes,PreAlgebra
+427514,FL,Tech,High,Private,sixTen,na,na,No response,No response,History
+427514,FL,Tech,High,Private,sixTen,na,na,No response,No response,Health
+429524,CO,Tech,High,Public,sixteenTwenty,CommonCore,computerLab,No response,Where a student can add their name to a help-queue. I can pop them off and it allows them to re-enter.,ComputerScience
+430583,MT,Tech,High,Public,twentyMore,CommonCore,computerLab,No response,No response,ComputerScience
+432001,CO,Tech,High,Private,sixteenTwenty,na,computerLab,Badge management to provide a visual mechanism for gauging student learning accomplishment.,See above. That would be cool!,ComputerScience
+437487,MO,Tech,High,Public,sixTen,na,Other,No response,No response,Other
+437771,International,Tech,High,Private,zeroFive,na,BYOT,"Blakboard, Moodle, all the LMS companies","Up to 300 online users, all in the same room.",ComputerScience
