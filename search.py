@@ -3,7 +3,7 @@
 import csv
 
 """ returns a list of lists where the sublists are all the rows of the CSV """
-def getRows(csv_file):
+def get_rows(csv_file):
 	rows = []
 	try:
 		# open file in "universal new-line mode" so that it handles empty excel cells better
@@ -18,15 +18,15 @@ def getRows(csv_file):
 
 
 """ returns a list of lists where the sublists are all the columns of the CSV """
-def getCols(csv_file):
+def get_cols(csv_file):
 	cols = []
 	try:
 		# open file in "universal new-line mode" so that it handles empty excel cells better
-		with open(file_to_search, 'rU') as csvfile:
+		with open(csv_file, 'rU') as csvfile:
 			csv_reader = csv.reader(csvfile)
 			i = 0
 			for row in csv_reader:
-				for index in xrange(row):
+				for index in xrange(len(row)):
 					if (i == 0):
 						cols.append([row[index]])
 					else:
@@ -38,8 +38,8 @@ def getCols(csv_file):
 	return cols
 
 """ Take a .csv file, return all rows that include any of the expressions in the input list exps """
-def findAllContaining(csv_file, exps):
-	dataRows = getRows(csv_file)
+def find_all_containing(csv_file, exps):
+	dataRows = get_rows(csv_file)
 	retRows = []
 	for row in dataRows:
 		added = False
@@ -52,7 +52,7 @@ def findAllContaining(csv_file, exps):
 	return retRows
 
 """ Take a set of rows, save to .csv file with file name as input fileName """
-def saveRowsToCSV(rows, fileName):
+def save_rows_to_csv(rows, fileName):
 	with open(fileName, 'w+') as writefile:
 		csv_writer = csv.writer(writefile)
 		for row in rows:

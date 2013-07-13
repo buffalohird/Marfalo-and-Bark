@@ -1,4 +1,4 @@
-import csv, itertools
+import csv
 
 ret_file = "search-results.csv"
 
