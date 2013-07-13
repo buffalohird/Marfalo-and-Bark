@@ -132,6 +132,12 @@ def get_breakdown(cached_data, search_field):
 
 #end get breakdown
 
+def export_data(cached_data):
+	with open(ret_file, 'w+') as writefile:
+		csv_writer = csv.writer(writefile)
+		for row in cached_data:
+				csv_writer.writerow(row)
+
 
 ret_file = "tally-results.csv"
  
@@ -145,12 +151,12 @@ filter_value = ""
 column_dictionary = {}
 
 arg_length = len(sys.argv)
-print arg_length
 if(arg_length == 1):
 	general_info(cached_data)
 	sys.exit()
 else:
 	if(arg_length >= 2):
+
 		search_field = sys.argv[1]
 		if arg_length == 2 and sys.argv[1] == "help":
 			general_info(cached_data)
@@ -170,18 +176,14 @@ if(arg_length >= 4):
 		found_column = find_column(cached_data, filter_field)
 		cached_data = filter_data(cached_data, found_column, filter_value)
 		i += 2
-
 #end iterator
 
+#conditional for export
+if search_field == "export":
+	export_data(cached_data)
+	sys.exit()
+
+#alternative for print stats
+
+
 run_stats(cached_data, search_field)
-
-
-"""print '\nTrying to write new file to ' + ret_file + '\n'
-
-with open(ret_file, 'w+') as writefile:
-	csv_writer = csv.writer(writefile)
-	for row in ret_contents:
-			csv_writer.writerow(row)
-
-print 'Results should all be written in ' + ret_file"""
-
