@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import random
+from copy import copy
 
 from gsp import GSP
 
@@ -49,8 +50,38 @@ class VCG:
             """
             Total payment for a bidder in slot k.
             """
-            c = slot_clicks
+            c = copy(slot_clicks)
             n = len(allocation)
+            values = []
+            c.append(0)
+            payment = 0
+            oldK = k
+            #for item in valid_bids:
+            #    print item
+            # print "\n"
+            # print valid_bids
+            # print c
+            #print "\n"
+            
+            if k == n-1:
+                if len(valid_bids) > n:
+                    return valid_bids[k+1][1] * c[k]
+                else:
+                    return c[k]*reserve
+            else:
+                return valid_bids[k+1][1] * (c[k] - c[k+1]) + total_payment(k+1)
+            """
+
+
+
+            while k != len(valid_bids) - 1:
+                #print payment
+                payment += valid_bids[k+1][1] * (c[k] - c[k + 1])
+                k += 1
+            print payment / c[oldK]
+            return payment / c[oldK]
+            """
+
 
             # TODO: Compute the payment and return it.
 
