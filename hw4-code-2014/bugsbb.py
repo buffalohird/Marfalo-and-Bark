@@ -102,7 +102,7 @@ class bugsbb:
         elif slot == 0 or min_bid == 0:
             pass
         else:
-            bid = float(1.0/3.0) * float(self.value) + float(2.0/3.0) * (min_bid + 1.0)
+            bid = float(1.0/4.0) * float(self.value) + float(3.0/4.0) * (min_bid)
         return bid
        
     def __repr__(self):
