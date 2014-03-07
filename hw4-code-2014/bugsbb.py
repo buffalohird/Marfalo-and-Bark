@@ -52,11 +52,12 @@ class bugsbb:
         # TODO: Fill this in
         last_round = history.round(t-1)
         last_round_bids = last_round.bids
+
+        
         last_round_clicks = last_round.clicks[::-1]
         utilities = [last_round_clicks[i]*(self.value - last_round_bids[i][1]) for i in xrange(len(last_round_clicks))]   
 
 
-        
         return utilities
 
     def target_slot(self, t, history, reserve):
