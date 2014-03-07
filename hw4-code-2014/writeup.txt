@@ -1,0 +1,65 @@
+3.2a) 
+What is the average utility of a population of truthful agents? 
+		Stats for Agent 0, Truthful
+		Average spend $1256.30 (daily)
+		Average  utility  $372.85 (daily)
+		----------------------------------------
+
+		Stats for Agent 1, Truthful
+		Average spend $1210.67 (daily)
+		Average  utility  $317.86 (daily)
+		----------------------------------------
+
+		Stats for Agent 2, Truthful
+		Average spend $1298.95 (daily)
+		Average  utility  $339.20 (daily)
+		----------------------------------------
+
+		Stats for Agent 3, Truthful
+		Average spend $1261.15 (daily)
+		Average  utility  $368.27 (daily)
+		----------------------------------------
+
+		Stats for Agent 4, Truthful
+		Average spend $1180.72 (daily)
+		Average  utility  $329.75 (daily)
+		----------------------------------------
+
+		Average daily revenue (stddev): $6207.79 ($1457.17)
+
+
+What is the average utility of a population of balanced bidding agents? 
+
+		Stats for Agent 0, bugsbb
+		Average spend $882.05 (daily)
+		Average  utility  $609.57 (daily)
+		----------------------------------------
+
+		Stats for Agent 1, bugsbb
+		Average spend $935.13 (daily)
+		Average  utility  $707.76 (daily)
+		----------------------------------------
+
+		Stats for Agent 2, bugsbb
+		Average spend $1003.77 (daily)
+		Average  utility  $708.52 (daily)
+		----------------------------------------
+
+		Stats for Agent 3, bugsbb
+		Average spend $948.88 (daily)
+		Average  utility  $703.87 (daily)
+		----------------------------------------
+
+		Stats for Agent 4, bugsbb
+		Average spend $837.03 (daily)
+		Average  utility  $569.06 (daily)
+		----------------------------------------
+
+		Average daily revenue (stddev): $4606.86 ($1352.47)
+
+
+Compare the two cases and explain your findings.
+		BB has Lower daily revenue: We expect this since, when not bidding truthfully in GSP, a bidder may lower their bid but would not raise their bid. This will lead to over all lower revenues on average.
+		BB has Higher expected utility for the bb agent. This is expected since we proved in class that GSP is not an NE for truthful bidding. Using some good method, such as bb, to deviate from truthful bidding will be useful to increase expected utility. 
+		BB has Lower average spending: This follows from the other two points since the bb agent will bid weakly less than truthfully. In many situations, a bb agent will spend less, thus spending less on average.
+
