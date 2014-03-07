@@ -31,7 +31,7 @@ def get_cols(csv_file):
 						cols.append([row[index]])
 					else:
 						cols[index].append(row[index])
-			i += 1
+				i += 1
 	except IOError:
 		print "IOERROR is raised. Are you sure you are in the right folder? We couldn't find the file you gave us.\n\n"
 		exit(1)
