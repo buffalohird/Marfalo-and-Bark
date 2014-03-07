@@ -69,6 +69,9 @@ class bugsbb:
                     bid_i = bid
             utilities += [(self.value - bid_i) * last_round_clicks[slot]]
 
+        if utilities == []:
+            return [0]
+
         return utilities
 
 
@@ -103,6 +106,7 @@ class bugsbb:
             pass
         else:
             bid = float(1.0/4.0) * float(self.value) + float(3.0/4.0) * (min_bid)
+        
         return bid
        
     def __repr__(self):

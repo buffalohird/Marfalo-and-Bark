@@ -4,8 +4,9 @@ import sys
 
 from gsp import GSP
 from util import argmax_index
+import math
 
-class BBAgent:
+class bugsbudget:
     """Balanced bidding agent"""
     def __init__(self, id, value, budget):
         self.id = id
@@ -50,10 +51,29 @@ class BBAgent:
         returns a list of utilities per slot.
         """
         # TODO: Fill this in
-        utilities = []   # Change this
+        last_round = history.round(t-1)
+        last_round_bids = filter(lambda (ID, bid):ID != self.id, last_round.bids)
 
-        
+
+        last_round_clicks = last_round.clicks
+
+        allocation, _ = GSP.compute(last_round_clicks, reserve, last_round_bids)
+        num_slots = len(allocation)
+
+        utilities = []
+
+        for slot in range(num_slots):
+            last_round_k = allocation[slot] #take the person from last round in slot k
+            bid_i = reserve # default bid to reserve price
+            for ID, bid in last_round_bids: # go through each of last rounds' bids, and set that slot's bid 
+                if last_round_k == ID:
+                    bid_i = bid
+            utilities += [(self.value - bid_i) * last_round_clicks[slot]]
+
+        if utilities == []:
+            return [0]
         return utilities
+
 
     def target_slot(self, t, history, reserve):
         """Figure out the best slot to target, assuming that everyone else
@@ -77,15 +97,21 @@ class BBAgent:
         # clicks_{s*_j} (v_j - p_{s*_j}(j)) = clicks_{s*_j-1}(v_j - b')
         # (p_x is the price/click in slot x)
         # If s*_j is the top slot, bid the value v_j
-
         prev_round = history.round(t-1)
         (slot, min_bid, max_bid) = self.target_slot(t, history, reserve)
+        bid = self.value
+        if min_bid >= self.value:
+            pass
+        elif slot == 0 or min_bid == 0:
+            pass
+        else:
+            bid = float(1.0/4.0) * float(self.value) + float(3.0/4.0) * (min_bid)
 
-        # TODO: Fill this in.
-        bid = 0  # change this
-        
+        if t<35:
+            bid *= (min(math.log((t+1)**(-1/3)),1))
+
         return bid
-
+       
     def __repr__(self):
         return "%s(id=%d, value=%d)" % (
             self.__class__.__name__, self.id, self.value)
