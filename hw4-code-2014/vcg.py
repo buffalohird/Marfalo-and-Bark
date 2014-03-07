@@ -51,6 +51,20 @@ class VCG:
             """
             c = slot_clicks
             n = len(allocation)
+            values = []
+            c.append(0)
+            payment = 0
+            oldK = k
+            #for item in valid_bids:
+            #    print item
+            # print "\n"
+            while k != len(valid_bids) - 1:
+                #print payment
+                payment += valid_bids[k+1][1] * (c[k] - c[k + 1])
+                k += 1
+            print payment / c[oldK]
+            return payment / c[oldK]
+
 
             # TODO: Compute the payment and return it.
 
