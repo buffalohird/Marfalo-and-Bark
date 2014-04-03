@@ -1,3 +1,6 @@
+print("Hello World")
+print("Your balance is: " + mturk.getAccountBalance())
+
 // Problem 2.  Random numbers
 
 // TO-DO:  Expand on our HTML code for the task.
@@ -9,11 +12,18 @@ var page = createWebpageFromTemplate(
 </div>);
 
 // TO-DO define the HIT parameters.
-var hitParams = <YOUR CODE>
+var hitParams = {
+	title: "Pick a number",
+	desc: "Just Pick one",
+	url: page,
+	reward: 0.0,
+	autoApprovalDelayInSeconds: 60,
+	assignments: 5, 
+	assignmentDurationInSeconds: 60,
+}
 
 // Create the HIT
 var hit = mturk.createHIT(hitParams)
 print("Hit created  : "+ hit)
 
 //Report the results on the writeup
-    
