@@ -1,0 +1,230 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Buffalo Hird
+\end_layout
+
+\begin_layout Standard
+CS186
+\end_layout
+
+\begin_layout Standard
+Assignment 5
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Problem 1:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1a) This name is chosen to be named after the Turkish Mechanical Turk which
+ was a machine which would play chess in the 18th century but which was
+ secretly a man inside the machine playing chess.
+ This name was chosen as Amazon Mechanical Turk involves delegating function
+ calls to human participants such that it appears that there is a machine
+ executing when it is really a human calling the shots.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The slogan artificial artificial inteligence is apt because it simulates
+ AI in places where it is difficult for computers to intelligently act by
+ using humans to artificially produce AI in a way that is not actually AI
+ but instead artificial AI.
+ It is a sort of paradoxical and awesome nuanced name.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1b) It involved users revising the description of the stick figures and
+ leaves such that we might receive a better description.
+ It was accomplished by putting up consecutive HITs which asked for a better
+ description than the previously provided image.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+1c) http://www.azernews.az/analysis/65642.html An article on the changing workforce
+, especially in the eyes of Marx who believed increased productivity would
+ not lead to such an extent of change that whole industries could be destroyed.
+ Instead, we are saying a new paradigm via mechanical turk where workers
+ who are no longer useful for their brute force are now able to provide
+ menial work using their brains.
+ As the article claims, 
+\begin_inset Quotes eld
+\end_inset
+
+welcome to the virtual sweatshop economy
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Problem 2:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+2b iv) It returns n! as it multiples f(1) through f(n) where each f(x) returns
+ x such that we have 
+\begin_inset Formula $\sum_{i=1}^{n}i$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Problem 3:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3a)
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3b) I was required to label images of individuals and receipts (separately).
+ After which point I was notified that I would be notified when my answers
+ had been approved or rejected.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3c)
+\end_layout
+
+\end_body
+\end_document
