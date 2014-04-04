@@ -294,7 +294,46 @@ Problem 4:
 \end_layout
 
 \begin_layout Standard
-4b)
+4b) (for some reason, the last and 5th assignment wouldn't get accepted
+ :( )
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-03 at 5.43.29 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5a) The object passed in to createHIT as an argument is a params object.
+ The components of params are 1) title:  the title of the HIT, 2) description:
+ a description of the HIT, 3) question: an XML string that is printed to
+ the screen (can be replaced by a url to a page for the question), 4) reward:
+ the reward the worker will receive upon completion.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \end_body
