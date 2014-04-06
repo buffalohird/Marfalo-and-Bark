@@ -172,6 +172,17 @@ Problem 2:
 \end_layout
 
 \begin_layout Standard
+2a) Done in code
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 2b iv) It returns n! as it multiples f(1) through f(n) where each f(x) returns
  x such that we have 
 \begin_inset Formula $\sum_{i=1}^{n}i$
@@ -199,7 +210,7 @@ Problem 3:
 \end_layout
 
 \begin_layout Standard
-3a)
+3a) account created online
 \end_layout
 
 \begin_layout Standard
@@ -223,7 +234,7 @@ Problem 3:
 \end_layout
 
 \begin_layout Standard
-3c)
+3c) downloaded the TurkIt framework
 \end_layout
 
 \begin_layout Standard
@@ -234,7 +245,7 @@ Problem 3:
 \end_layout
 
 \begin_layout Standard
-3d)
+3d) reviewed the mturk master object for TurkIt
 \end_layout
 
 \begin_layout Standard
@@ -245,7 +256,7 @@ Problem 3:
 \end_layout
 
 \begin_layout Standard
-3e)
+3e) added $7 to account and filled out cs186-mturk-intro.js
 \end_layout
 
 \begin_layout Standard

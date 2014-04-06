@@ -1,7 +1,7 @@
 // Problem 3.  Count # nuclei in an image. 
 
 // TO-DO: Define the payments.	
-    var nucleiHITcost = <YOUR CODE>
+    var nucleiHITcost = 0.10 // <YOUR CODE>
     
     var hitId = createNucleiHIT(nucleiHITcost)
 	print("New hit was created.");
@@ -17,7 +17,7 @@
     print("-------------------")
     
 // TO-DO:  Payment for voting.
-    var votingCost = <YOUR CODE>
+    var votingCost = 0.10 //<YOUR CODE> 
     if (vote(ansCount, votingCost)) {
         mturk.approveAssignment(hit.assignments[0])
         print("\nConsensus reached!\n")
@@ -40,7 +40,7 @@ function createNucleiHIT(argCost) {
 <li>Please count the number of nuclei in the left picture.</li>
 <li>People will vote whether to approve your work.</li>
 </ul>
-<img src="http://i.imgur.com/JyGlt.jpg" alt="Nuclei"></img>
+<img src="http://i.imgur.com/WPLAo.jpg" alt="Nuclei"></img>
 ]]></FormattedContent>
             </QuestionContent>
             <AnswerSpecification>
@@ -53,9 +53,19 @@ function createNucleiHIT(argCost) {
             </AnswerSpecification>
         </Question>
     </QuestionForm>
+
+    var hitParams = {
+        title : "Count things in a picture", 
+        description : "Count the number of nuclei in a picture", 
+        question : q, 
+        reward : argCost,
+        autoApprovalDelayInSeconds: 60,
+        //assignmentDurationInSeconds: 60,
+        assignments: 1
+    }
     
     // TO-DO create the HIT (use the question form above)
-    return mturk.createHIT(<YOUR CODE>)
+    return mturk.createHIT(hitParams)
 }
 
 
@@ -98,8 +108,17 @@ function vote(argNucleiCount, argVoteCost) {
             </Selection>
     })
    
-// TO-DO:   Create the voting HIT 
-   var voteHitId = mturk.createHIT(<YOUR CODE>)
+// TO-DO:   Create the voting HIT <YOUR CODE>
+    var hitParams = {
+        title : "Vote on a count of things in a picture", 
+        description : "Count the number of nuclei in a picture and verify another's answer", 
+        question : q, 
+        reward : argVoteCost,
+        autoApprovalDelayInSeconds: 60,
+        //assignmentDurationInSeconds: 60,
+        assignments: 1
+    }
+   var voteHitId = mturk.createHIT(hitParams)
     
    var voteResults = mturk.vote(voteHitId, function (answer) {
 			 return (answer.bestOption) })

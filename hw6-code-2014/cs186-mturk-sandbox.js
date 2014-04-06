@@ -3,6 +3,9 @@
 // TO-DO:  Expand on our HTML code for the task.
 var page = createWebpageFromTemplate(
 <div>Please pick a number from 1 to 10
+    <img src='http://i.imgur.com/WPLAo.jpg' width="45%" alt="Image 1"></img>
+    <img src='http://i.imgur.com/Sbkem.jpg' width="45%" alt="Image 1"></img>
+
 <textarea style="width:350px;height:30px" name="newText">..</textarea>
 <br></br>
  <input type="submit" value="Submit"></input>

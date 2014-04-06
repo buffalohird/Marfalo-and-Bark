@@ -172,7 +172,7 @@ Problem 2:
 \end_layout
 
 \begin_layout Standard
-2a)
+2a) Done in code
 \end_layout
 
 \begin_layout Standard
@@ -183,7 +183,12 @@ Problem 2:
 \end_layout
 
 \begin_layout Standard
-2b)
+2b iv) It returns n! as it multiples f(1) through f(n) where each f(x) returns
+ x such that we have 
+\begin_inset Formula $\sum_{i=1}^{n}i$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -194,7 +199,509 @@ Problem 2:
 \end_layout
 
 \begin_layout Standard
-2c)
+Problem 3:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3a) account created online
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3b) I was required to label images of individuals and receipts (separately).
+ After which point I was notified that I would be notified when my answers
+ had been approved or rejected.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3c) downloaded the TurkIt framework
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3d) reviewed the mturk master object for TurkIt
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3e) added $7 to account and filled out cs186-mturk-intro.js
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Problem 4:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4a) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-03 at 5.31.20 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+4b) (for some reason, the last and 5th assignment wouldn't get accepted
+ :( )
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-03 at 5.43.29 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5a) The object passed in to createHIT as an argument is a params object.
+ The components of params are 1) title:  the title of the HIT, 2) description:
+ a description of the HIT, 3) question: an XML string that is printed to
+ the screen (can be replaced by a url to a page for the question), 4) reward:
+ the reward the worker will receive upon completion.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5b) in code
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5c) in code
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5d) in code
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+5e) 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We found that Amazon sometimes just doesn't send us the answer for a while.
+ That was nice, but other than that, we found that people answer these questions
+ so insanely quickly.
+ We posted it and within 2 minutes had an answer even though we only paid
+ 10 cents.
+ We got an answer of 123 and it was confirmed in the vote.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Snapshots of original HIT and verification HIT:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-04 at 2.01.47 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-04 at 2.01.40 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Problem 6:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We describe our approach.
+ We note that we had issues getting images to load in our browsers though
+ it seemed to work for our workers.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(a) The HTML code that was shown to workers (with a snapshot) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-04 at 3.57.40 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(b) The payments and/or voting mechanisms you had in place :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We use a voting scheme such that we offer each image pair to n workers (where
+ we defined n here as 5 workers).
+ We then take the best result of these, assuming that these are the correct
+ pairwise comparison and return this pairwise evalution for our insertion
+ sort function.
+ We note that even if one of these pairwise temporal comparisons was incorrect,
+ that insertion sort looks at all n-1 images for each n images such that
+ we expect to find a suitable ordering even if some of the 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ comparisons are wrong.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have made a rudimentary payment rule such that any worker is paid and
+ not just those who provide the best answer, paying all workers $0.05 per
+ HIT.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(c) The submissions from workers (with a few snapshots) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+we only included one snapshot as they are uninteresting to look at
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/thegator12321/Desktop/Screen Shot 2014-04-04 at 4.03.15 PM.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(d) The final ordering obtained by your human computation algorithm, and
+ some of the intermediate algorithmic steps in obtaining the ordering :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After 3 iterations we had ordering:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{array}{c}
+SzBlk.jpg\\
+ZiusC.jpg\\
+WPLAo.jpg\\
+XcGBz.jpg\\
+YdL3d.jpg\\
+Sbkem.jpg\\
+r53qG.jpg\\
+RNfpa.jpg
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After our 
+\begin_inset Formula $n^{2}$
+\end_inset
+
+ pairwise comparisons we received final ordering:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\begin{array}{c}
+SzBlk.jpg\\
+XcGBz.jpg\\
+ZiusC.jpg\\
+WPLAo.jpg\\
+RNfpa.jpg\\
+Sbkem.jpg\\
+r53qG.jpg\\
+YdL3d.jpg
+\end{array}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(e) Any experiments you performed to pick the optimal design :
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We decided to go with Insertion Sort because it probably has better results
+ due to redundancy as compared to other sorts with fewer steps.
+ We expect this to work best since the ordering of these pictures is pretty
+ ambiguous, thus the more comparisons we can get, the better the accuracy.
+ No, it's not the most algorithmically efficient mechanism, but it should
+ give us the more correct answer; something that is not entirely trivial
+ when the comparisons involve more than just "is this number bigger than
+ that number?" but rather "does it look like this picture happened before
+ that one?".
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \end_body
